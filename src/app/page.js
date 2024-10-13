@@ -1,8 +1,8 @@
 import Image from "next/image";
-import bg from "../../public/background/autumn-leaves.png";
+import bg from "../../public/background/wheat-field.png";
 import RenderModel from "@/components/RenderModel";
-import Radio from "@/components/models/Radio";
 import Navigation from "@/components/navigation";
+import Bible from "@/components/models/Bible";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
         {/* navigation and 3d model */}
         <Navigation />
         <RenderModel>
-          <Radio />
+          <Bible />
         </RenderModel>
       </div>
     </main>
